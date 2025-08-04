@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #222;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a237e;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #536dfe;
+    letter-spacing: 0.1em;
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto 50px;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(83, 109, 254, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td {
+    text-align: center;
+    padding: 14px 18px;
+    color: #3949ab;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+th {
+    background-color: #536dfe;
+    color: white;
+}
+
+tbody tr {
+    background: #e8ebff;
+    transition: background-color 0.25s ease;
+    border-radius: 12px;
+}
+
+tbody tr:hover {
+    background: #d0d7ff;
+}
+
+tbody tr td {
+    border-top: none;
+    border-bottom: none;
+}
+
+form#petshopForm {
+    max-width: 860px;
+    margin: 0 auto 50px;
+    background: white;
+    padding: 25px 40px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(83, 109, 254, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-weight: 700;
+    color: #3949ab;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 15px 18px;
+    font-size: 1.1rem;
+    border-radius: 14px;
+    border: 2px solid #c5cafc;
+    background: #f5f7ff;
+    transition: border-color 0.35s ease, background-color 0.35s ease;
+    box-sizing: border-box;
+}
+
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="text"]:focus {
+    outline: none;
+    background: white;
+    border-color: #536dfe;
+    box-shadow: 0 0 8px #536dfe;
+}
+
+.inline-fields {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.inline-fields > div {
+    flex: 1 1 45%;
+}
+
+.info-dia {
+    font-style: italic;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 2px;
+}
+
+.best-petshop {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 22px 30px;
+    background: #e8ebff;
+    color: #3b3fdb;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(59, 63, 219, 0.3);
+    text-align: center;
+}
